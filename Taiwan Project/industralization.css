@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: normal;
+}
+header {
+  background-color: #8fb2ff;
+  padding: 1rem;
+  width: 100%;
+  color: rgb(29, 29, 146);
+}
+.headerTitle {
+  font-size: 2.35rem;
+}
+.headerText {
+  font-size: 1.2rem;
+  text-indent: 32px;
+}
+
+nav ul {
+  display: flex;
+  background-color: rgb(181, 234, 255);
+  list-style-type: none;
+}
+nav ul li {
+  margin: 1.25rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: blue;
+  transition: all 0.25s ease;
+}
+nav ul li a:hover {
+  color: rgb(245, 53, 111);
+}
+/* 主要內容 */
+.light {
+  font-weight: 600;
+}
+section.top {
+  margin: 2rem;
+}
+section.container {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+}
+section.left {
+  margin: 2rem;
+  width: 40%;
+}
+section.right {
+  margin: 2rem;
+  width: 70%;
+}
+
+@media screen and (max-width: 625px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 630px) {
+  section.container {
+    flex-direction: column;
+  }
+  section.left,
+  section.right {
+    width: 90%;
+  }
+}

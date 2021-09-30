@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: normal;
+}
+header {
+  background-color: #8fb2ff;
+  padding: 1rem;
+  width: 100%;
+  color: rgb(29, 29, 146);
+}
+.headerTitle {
+  font-size: 2.35rem;
+}
+.headerText {
+  font-size: 1.2rem;
+  text-indent: 32px;
+}
+nav {
+  background-color: #fad1da;
+}
+nav ul {
+  display: flex;
+  background-color: rgb(181, 234, 255);
+  list-style-type: none;
+}
+nav ul li {
+  margin: 1.25rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: blue;
+  transition: all 0.25s ease;
+}
+nav ul li a:hover {
+  color: rgb(245, 53, 111);
+}
+
+/* 主要內容 */
+h2 {
+  font-weight: 600;
+}
+main section {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+.formula {
+  text-align: center;
+  color: red;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+ol {
+  margin-left: 1.5rem;
+}
